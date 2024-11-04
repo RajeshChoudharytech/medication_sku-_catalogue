@@ -1,0 +1,37 @@
+# Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyd
+
+# Virtual environment folder (replace "venv" with your virtual environment's name if different)
+venv/
+
+# Django files
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.pdb
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# VS Code files
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
