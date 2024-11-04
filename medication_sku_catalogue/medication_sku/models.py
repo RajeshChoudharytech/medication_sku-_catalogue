@@ -11,6 +11,8 @@ class MedicationSKU(models.Model):
         on_delete=models.CASCADE, 
         related_name='medications'
     )
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
         unique_together = ('medication_name', 'presentation', 'dose', 'unit')
